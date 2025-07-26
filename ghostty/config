@@ -1,0 +1,15 @@
+font-size = 24
+mouse-hide-while-typing = true
+window-padding-balance = true
+window-decoration = false
+background-opacity=0.85
+font-family = Hack Nerd Font
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+background-blur = false
+confirm-close-surface=false
+theme = dark:"Dark Pastel",light:Elegant
+cursor-color = ffffff
+foreground = ffffff
+cursor-opacity = 0.7

@@ -15,3 +15,8 @@ export PROMPT='%m %1~ $([ -n "$(parse_git_branch)" ] && echo "${COLOR_GIT}git:($
 
 tmux attach
 clear
+#CTRL-r for fzf CL history
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory

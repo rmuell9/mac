@@ -29,4 +29,5 @@ alias tt='tmux new-session -s dev -c ~ -n nvim ";" new-window -c ~ -n zsh ";" se
 alias ta='tmux attach'
 #alias td='tmux new-session -ds secrets -c ~'
 alias tat='tmux attach -t'
+alias tk='tmux kill-session -t'
 alias activate='source .venv/bin/activate'

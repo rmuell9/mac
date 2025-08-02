@@ -1,4 +1,3 @@
-PROMPT='%m %1~ $ '
 eval "$(/opt/homebrew/bin/brew shellenv)"
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 eval "$(fzf --zsh)"
@@ -11,7 +10,7 @@ COLOR_DEF=$'%f'
 COLOR_GIT=$'%F{39}'
 COLOR_PINK=$'%F{205}'
 setopt PROMPT_SUBST
-export PROMPT='%m %1~ $([ -n "$(parse_git_branch)" ] && echo "${COLOR_GIT}git:(${COLOR_PINK}%B$(parse_git_branch)%b${COLOR_GIT})${COLOR_DEF} ")$ '
+export PROMPT='%1~ $([ -n "$(parse_git_branch)" ] && echo "${COLOR_GIT}git:(${COLOR_PINK}%B$(parse_git_branch)%b${COLOR_GIT})${COLOR_DEF} ")'
 
 tmux attach
 clear

@@ -23,7 +23,7 @@ alt - l : yabai -m window --focus east
 alt + shift - w : killall sketchybar && sketchybar
 alt + shift - g : killall ghostty && open -n -a "Ghostty"
 alt + shift - d : osascript -e 'tell app "System Events" to tell appearance preferences to set dark mode to not dark mode'
-
+alt + shift - m : open -a "Maps" || open -n -a "Maps"
 # flip along y-axis
 alt - y : yabai -m space --mirror y-axis
 

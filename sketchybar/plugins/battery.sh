@@ -11,7 +11,7 @@ PERCENTAGE=$(pmset -g batt | grep -Eo "\d+%" | cut -d% -f1)
 
 #only show battery if it's less than 10%... change value after -le to modify this condition
 # or (||) it's full - stop charging!
-if [ $PERCENTAGE -le 10 ]; then
+if [ $PERCENTAGE -le 15 ]; then
   sketchybar --set battery drawing=on label="$PERCENTAGE%"
 else
   sketchybar --set battery drawing=off

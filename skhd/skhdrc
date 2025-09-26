@@ -1,5 +1,5 @@
 #manage applications
-alt - b : open -n -a "Brave Browser" 
+alt - b : open -n -a "Zen"
 alt - t : open -n -a "Ghostty"
 alt - r : killall Books; open -n -a "Books"
 alt - s : open -a "Spotify" || open -n -a "Spotify"
